@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+	<link class="html" rel="stylesheet" href="H_R_S.css"></link>
+</h:head>
+<h:body>
+	<center>
+		<br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+		<br></br> <br></br> <br></br>
+		<p style="font-size: 24pt;">
+			<!--                <p style = "font-size: 12pt; color: fuchsia">
+                   ¿No son maravillosas las hojas de estilo? </p>-->
+			<nav class="navegacion">
+
+			<ul class="menu">
+				<li><a href="Servicios.xhtml" style="color: white">SERVICIOS</a></li>
+				<li><a href="" style="color: white">ENSERES</a></li>
+				<li><a href="" style="color: white">SOCIOS</a></li>
+				<li><a href="" style="color: white">EMPLEADOS</a></li>
+			</ul>
+			</nav>
+		</p>
+
+	</center>
+
+	<header>
+	<center>
+
+		<nav class="navegacion">
+		<ul class="menu">
+			<li><a href="index.xhtml" style="font-size: 16pt; color: white">SALIR</a></li>
+			<!--                        <li><a href="Login.xhtml" style = "font-size: 16pt; color: white" >SALIR</a></li>-->
+		</ul>
+
+		</nav>
+
+	</center>
+	</header>
+	<h:form>
+		<h:commandButton action="#{bitacora.CerrarCecion()}"
+			value="Cerrar Session" />
+		<h:commandButton action="grafica1" value="Grafica" />
+	</h:form>
+</h:body>
+</html>
+

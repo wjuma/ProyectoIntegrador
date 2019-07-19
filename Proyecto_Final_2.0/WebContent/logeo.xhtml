@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>LOG</title>
+</h:head>
+
+<h:body>
+	<h1>LOGEO</h1>
+	<h:form>
+		<!-- 		<label>Cedula</label> -->
+		<!-- 		<h:inputText value="#{controlador.cedula}"></h:inputText> -->
+		<label>Nombre</label>
+		<h:inputText value="#{logeo.correo}" />
+		<label>Contraseña</label>
+		<h:inputSecret value="#{logeo.clave}" />
+		<h:commandButton action="#{logeo.redi()}" value="Enviar" />
+		<h:commandButton action='registro.xhtml' value="Registro" />
+		<input type="reset" value="Borrar" />
+	</h:form>
+</h:body>
+</html>

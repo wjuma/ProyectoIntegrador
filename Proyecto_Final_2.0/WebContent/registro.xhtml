@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<link rel="stylesheet" href="login_H_R_C.css" />
+</h:head>
+<h:body>
+
+	<h:form>
+		<h3>Cedula:</h3>
+		<h:inputText value="#{logeo.correo}" />
+
+		<h3>Nombre Usuario</h3>
+		<input type="text" name="nombre" />
+
+		<h3>Correo</h3>
+		<input type="mail" name="correo" />
+		<h3>Contraseña:</h3>
+		<input type="text" name="contrasenia" />
+
+		<h:commandButton value="submit" action=" " />
+	</h:form>
+</h:body>
+</html>
