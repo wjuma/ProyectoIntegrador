@@ -11,8 +11,9 @@ import com.web.modelo.Usuario;
 
 @ManagedBean
 
-public class Logeo extends Usuario {
+public class Logeo extends Usuario {// funciona
 	private ResultSet resultSet = null;
+
 	public boolean valida() {
 		boolean estado = false;
 		Conexion.conectar();
