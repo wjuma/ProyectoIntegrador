@@ -14,10 +14,10 @@ import com.web.modelo.Usuario;
 public class Logeo extends Usuario {// funciona
 	private ResultSet resultSet = null;
 
-	public boolean valida() {
-		boolean estado = false;
+	public int valida() {
+		int estado = 3;
 		Conexion.conectar();
-		String sql = "select * from usuarios";
+		String sql = "select * from prueba_usuarios";
 		// String sql = "select * from usuarios";
 		Conexion.consultar(sql);
 		resultSet = Conexion.getResultSet();
@@ -31,12 +31,22 @@ public class Logeo extends Usuario {// funciona
 					HttpSession sesion = ControladorSession.getSession();
 					sesion.setAttribute("Usuario", getCorreo());
 					sesion.setAttribute("NombreU", resultSet.getObject(4));
-					System.out.println(getCorreo());
-					estado = true;
-					break;
+					// int perfil=resultSet.getObject(5);
+					if ((int) resultSet.getObject(5) == 1) {
+						sesion.setAttribute("perfil", "Administrador");
+						estado = 1;
+						System.out.println(estado);
+						// break;
+					} else {
+						sesion.setAttribute("perfil", "Invitado");
+						estado = 2;
+						System.out.println(estado);
+						// break;
+					}
+					// System.out.println(getCorreo());
 				} else {
 					System.out.println("No esta");
-					estado = false;
+					estado = 3;
 				}
 				// System.out.println(resultSet.getObject(1) + " " + resultSet.getObject(2));
 			}
@@ -53,8 +63,11 @@ public class Logeo extends Usuario {// funciona
 		System.out.println("metodo valida");
 		String jj = "";
 		System.out.println(valida());
-		if (valida()) {
+		if (valida() == 1) {
+			jj = "verBitacora.xhtml";
+		} else if (valida() == 2) {
 			jj = "MenuBusqueda.xhtml";
+
 		} else {
 			jj = "ErrorLogin.xhtml";
 		}
