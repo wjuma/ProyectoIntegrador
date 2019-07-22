@@ -1,0 +1,33 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 0)
++++ .idea/vcs.xml	(date 0)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<title>The Venue</title>\r\n<meta charset=\"utf-8\">\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n<meta name=\"description\" content=\"The Venue template project\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles/bootstrap-4.1.2/bootstrap.min.css\">\r\n<link href=\"plugins/font-awesome-4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"plugins/OwlCarousel2-2.2.1/owl.carousel.css\">\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"plugins/OwlCarousel2-2.2.1/owl.theme.default.css\">\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"plugins/OwlCarousel2-2.2.1/animate.css\">\r\n<link href=\"plugins/colorbox/colorbox.css\" rel=\"stylesheet\" type=\"text/css\">\r\n<link href=\"plugins/jquery-datepicker/jquery-ui.css\" rel=\"stylesheet\" type=\"text/css\">\r\n<link href=\"plugins/jquery-timepicker/jquery.timepicker.css\" rel=\"stylesheet\" type=\"text/css\">\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles/main_styles.css\">\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles/responsive.css\">\r\n</head>\r\n<body>\r\n\r\n<div class=\"super_container\">\r\n\t\r\n\t<!-- Header -->\r\n\r\n\t<header class=\"header\">\r\n\t\t<div class=\"container\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col\">\r\n\t\t\t\t\t<div class=\"header_content d-flex flex-row align-items-center justify-content-start\">\r\n\t\t\t\t\t\t<div class=\"logo\">\r\n\t\t\t\t\t\t\t<a href=\"#\">\r\n\t\t\t\t\t\t\t\t<div>HR</div>\r\n\t\t\t\t\t\t\t\t<div>system</div>\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<nav class=\"main_nav\">\r\n\t\t\t\t\t\t\t<ul class=\"d-flex flex-row align-items-center justify-content-start\">\r\n\t\t\t\t\t\t\t\t<li><a href=\"integrantes.html\">Informacion</a></li>\r\n\t\t\t\t\t\t\t\t<li><a href=\"about.html\">Licencia</a></li>\r\n\t\t\t\t\t\t\t\t<li><a href=\"menu.html\">Documentacion</a></li>\r\n\t\t\t\t\t\t\t\t<li><a href=\"https://www.google.com/\">Programa</a></li>\r\n\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t</nav>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</header>\r\n\r\n\r\n\t<!-- Home -->\r\n\r\n\t<div class=\"home\">\r\n\t\t<div class=\"parallax_background parallax-window\" data-parallax=\"scroll\" data-image-src=\"images/home.jpg\" data-speed=\"0.8\"></div>\r\n\t\t<div class=\"home_container\">\r\n\t\t\t<div class=\"container\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col\">\r\n\t\t\t\t\t\t<div class=\"home_content text-center\">\r\n\t\t\t\t\t\t\t<div class=\"home_subtitle page_subtitle\">Hoteles, restaurantes y servicios</div>\r\n\t\t\t\t\t\t\t<div class=\"home_title\"><h1>2013 - 2014 </h1></div>\r\n\t\t\t\t\t\t\t<div class=\"home_text ml-auto mr-auto\">\r\n\r\n\t\t\t\t</div>\r\n\r\n\r\n<script src=\"js/jquery-3.2.1.min.js\"></script>\r\n<script src=\"styles/bootstrap-4.1.2/popper.js\"></script>\r\n<script src=\"styles/bootstrap-4.1.2/bootstrap.min.js\"></script>\r\n<script src=\"plugins/greensock/TweenMax.min.js\"></script>\r\n<script src=\"plugins/greensock/TimelineMax.min.js\"></script>\r\n<script src=\"plugins/scrollmagic/ScrollMagic.min.js\"></script>\r\n<script src=\"plugins/greensock/animation.gsap.min.js\"></script>\r\n<script src=\"plugins/greensock/ScrollToPlugin.min.js\"></script>\r\n<script src=\"plugins/OwlCarousel2-2.2.1/owl.carousel.js\"></script>\r\n<script src=\"plugins/easing/easing.js\"></script>\r\n<script src=\"plugins/parallax-js-master/parallax.min.js\"></script>\r\n<script src=\"plugins/colorbox/jquery.colorbox-min.js\"></script>\r\n<script src=\"plugins/jquery-datepicker/jquery-ui.js\"></script>\r\n<script src=\"plugins/jquery-timepicker/jquery.timepicker.js\"></script>\r\n<script src=\"js/custom.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(date 1563817026000)
++++ index.html	(date 1563817542956)
+@@ -39,7 +39,7 @@
+ 								<li><a href="integrantes.html">Informacion</a></li>
+ 								<li><a href="about.html">Licencia</a></li>
+ 								<li><a href="menu.html">Documentacion</a></li>
+-								<li><a href="https://www.google.com/">Programa</a></li>
++								<li><a href="https://www.google.com.ec/">Programa</a></li>
+ 
+ 							</ul>
+ 						</nav>
