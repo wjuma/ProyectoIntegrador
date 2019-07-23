@@ -1,0 +1,105 @@
+html{
+    /* la imagen a ser mostrada a pantalla completa */
+    background:url('ima/fondo4.jpg') no-repeat center center;
+ 
+    /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
+    min-height:100%;
+ 
+    /* Propiedad a utilizar para la imagen */
+    background-size:cover;
+}
+  
+
+  
+  header{
+    width: 100%;
+  }
+  
+  .navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    /* background: #fff; */
+  }
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #1a1818;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: rgb(117, 114, 111);
+    transition: all .3s;
+  }
+  
+  /* Submenu*/
+  
+  /* .submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+  }
+  
+  .menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  }
+   */
+   .imgder{
+    float:right; /*para ponerlo a la derecha */
+    margin:20px; /* un margen cualquiera */
+    }
+    
+    .imgizq{
+    float:right; /*para ponerlo a la izquierda */
+    margin:20px; /* un margen cualquiera */
+    }
+    .imgizq img, .imgder img{
+    display: block;
+    margin: 0 auto; /* centrar imagen */
+    }
+    .imgizq p, .imgder p{
+    text-align:center; 
+    font-weight:bold; 
+    font-size: 8px; 
+    }
+    /* ******************************************************** */
+    .contenedor{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+   
+  .texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
