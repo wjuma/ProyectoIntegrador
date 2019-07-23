@@ -1,0 +1,66 @@
+html{
+    /* la imagen a ser mostrada a pantalla completa */
+    background:url('ima/fondo4.jpg') no-repeat center center;
+ 
+    /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
+    min-height:100%;
+ 
+    /* Propiedad a utilizar para la imagen */
+    background-size:cover;
+}
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background: #f8f0f0; */
+    text-align: center;
+  }
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    font: 200% sans-serif;
+    border:0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 25px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 230, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+  input::placeholder {
+    color: rgb(5, 5, 5);
+  }
+  

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<!-- 	xmlns:ui="http://java.sun.com/jsf/facelets" -->
+<!-- 	xmlns:f="http://java.sun.com/jsf/core"> -->
+
+
+<h:head>
+<link rel="Stylesheet" href="login_H_R_C.css"/>
+</h:head>
+
+<h:body>
+	
+	<h:form>
+	<center>
+	
+	<br />
+
+		<font class="box" >
+		<p style="font-size: 25pt; color:white;">INICIAR SESION</p>
+		<p style="font-size: 20pt; color:black;">NOMBRE</p>
+		<h:inputText value="#{logeo.correo}"/>
+		
+		<p style="font-size: 20pt; color:black;">CONTRASEÑA</p>
+		<h:inputSecret value="#{logeo.clave}" name="clave" />
+		
+		<h:commandButton action="#{logeo.valida()}" value="Enviar" />
+
+		<h:commandButton action='registro.jsf' value="Registro" />
+		<h:commandButton action='index.xhtml' value="Inicio" />
+		
+	     </font>
+	</center>
+	</h:form>
+</h:body>
+</html>
