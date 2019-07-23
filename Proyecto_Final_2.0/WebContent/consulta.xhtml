@@ -7,9 +7,24 @@
 <h:head></h:head>
 
 <h:body>
-
-#{consultas.tablaJSF()}
-	<h:outputFormat value="#{consultas.tablaJSF()}" />
-	<table></table>
+	<h:dataTable value="#{consultasContruc.consulta}" var="consulta">
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="valor"></h:outputText>
+			</f:facet>
+			<h:outputText value="#{consulta.id_tabla}"></h:outputText>
+		</h:column>
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="nombre"></h:outputText>
+			</f:facet>
+			<h:outputText value="#{consulta.des}"></h:outputText>
+		</h:column>
+		<h:column>
+			<h:form>
+				<h:commandButton action=" " value="Borrar"></h:commandButton>
+			</h:form>
+		</h:column>
+	</h:dataTable>
 </h:body>
 </html>
