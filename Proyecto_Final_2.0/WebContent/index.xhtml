@@ -1,25 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:p="http://primefaces.org/ui">
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
 
-<h:head>grafica</h:head>
-<h:body>
-	<center>
-		<br />
-		<!-- 		<p:chart type="pie" model="#{Grafica1.pieModel2}" -->
-		<!-- 			style="width:400px;height:300px" /> -->
-		<p:chart type="pie" model="#{graficaa.graf2}"
-			style="width:400px;height:300px" />
-		<br />
+        <link class="html" rel="stylesheet" href="H_R_S.css"></link>
+    </h:head>
+    <h:body>
+        <div class="body">
 
-		<p:chart type="pie" model="#{graficaa.segundo}"
-			style="width:400px;height:300px" />
-		<br />
+            <center>
+                <div class="contenedor">
 
-	</center>
+                    <img src="ima/1.png" width="200" height="200" />
+                    <!--        <img src="tux.png"  height="298" width="249" />-->
+                    <!-- <div class="centrado">Centrado</div> -->
 
-</h:body>
+                </div>
+            </center>
+            <center>
+                <p style = "font-size:24pt;">
+                    <!--                <p style = "font-size: 12pt; color: fuchsia">
+                       ¿No son maravillosas las hojas de estilo? </p>-->
+                    <nav class="navegacion">
+
+                        <ul class="menu">
+                            <li><a href="AcercaDe_H_R_S.xhtml" style="color:white">Acerca de</a></li>
+                            <li><a href="Informacion.xhtml" style="color:white">Información</a></li>
+                            <!-- <li><a href="#">Servicios</a> -->
+                            <!-- <ul class="submenu">
+                                <li><a href="#">Servicio #1</a></li>
+                                <li><a href="#">Servicio #2</a></li>
+                                <li><a href="#">Servicio #3</a></li>
+                            </ul> -->
+
+                            <li><a href="Contactos.xhtml" style="color:white">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </p>
+
+            </center>
+
+
+            <center>
+
+                <p style = "font-size:30pt; ">HOTELES RESTAURANTES Y SERVICIOS</p>
+            </center>      
+            <!--                <p style = "font-size: 12pt; color: fuchsia">
+   ¿No son maravillosas las hojas de estilo? </p>-->
+            <header>
+                <center>
+
+                    <nav class="navegacion">  
+                        <ul class="menu">
+                            <li><a href="logeohotel.jsf" style = "font-size: 16pt; color: white" >Iniciar Sesión</a></li>
+
+                        </ul>
+
+                    </nav>
+
+                </center>
+            </header>
+
+
+            <br></br>
+            <div class="imgizq">
+
+                <img src="ima/Logo_UPS2.png" width="200" height="60"  />
+                <!--        <img src="tux.png"  height="298" width="249" />-->
+                <!-- <p> Descripcion de la imagen </p> -->
+            </div> 
+
+            <br></br><br></br>
+            <!-- <p style="color:rgb(255, 250, 253)";> -->
+            <p style = "font-size: 12pt; color: white"  >&nbsp;&nbsp;Cando, Juma, Quisupangui, Ramirez, Sinchiguano</p>
+        </div>
+
+    </h:body>
 </html>
+
