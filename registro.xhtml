@@ -8,17 +8,13 @@
 	<link rel="stylesheet" href="login_H_R_C.css" />
 </h:head>
 <h:body>
-
 	<h:form>
-
-
 		<h3>Cedula:</h3>
 		<h:inputText value="#{ControlRegistro.cedula}" />
 		<h3>Nombre:</h3>
 		<h:inputText value="#{ControlRegistro.nombre}" />
-
 		<h3>Correo :</h3>
-		<h:inputText value="#{ControlRegistro.correo}" />
+		<h:inputText type="mail" value="#{ControlRegistro.correo}" />
 		<h3>Contraseña:</h3>
 		<h:inputText value="#{ControlRegistro.contrasenia}" />
 
@@ -27,3 +23,4 @@
 	</h:form>
 </h:body>
 </html>
+
